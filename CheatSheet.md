@@ -58,3 +58,31 @@ use linq for practice assessment questions
 
 .where (x => x % 2 == 0).ToList();
 
+
+classes with base - you don't typically want people to build new objects from the base class. You want them to create it from the classes that derive from it. Should use the "protected" access modifier private means no one can get to it and protected means only me and only things that inherit me
+
+you can protect the methods
+
+protected stops this from happening candyBar.Cost = 234.22;
+
+the sealed modifier means that the class can't be inherited. You can have truck class, fordtruck class and then you can seal fordtruck so it forces people to use the truck class
+
+You cannot put protected in a class
+You can put protected on a setter
+You can put protected in a constructor
+
+would probably use it more on a constructor vs a member
+
+
+"Sealed"
+
+Polymorphism
+The condition incurring in several different forms
+
+the ability of an object of differnent types to provide an interface for different methods. Allows multiple things to do different things
+
+overloading and overriding
+
+overloading methods
+
+
